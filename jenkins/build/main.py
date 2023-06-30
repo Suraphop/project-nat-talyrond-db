@@ -16,7 +16,7 @@ talyrond = TALYROND(
         table_columns=constant.TALYROND_TABLE_COLUMNS,
         table_log=constant.TALYROND_TABLE_LOG,
         table_columns_log=constant.TALYROND_TABLE_COLUMNS_LOG,
-        stack_notify_token=os.getenv('SLACK_NOTIFY_TOKEN'),
+        slack_notify_token=os.getenv('SLACK_NOTIFY_TOKEN'),
     )
 
 
